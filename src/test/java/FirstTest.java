@@ -25,7 +25,7 @@ public class FirstTest {
         driver.findElement(By.id("address_first_name")).sendKeys("Dariya");
         driver.findElement(By.id("address_last_name")).sendKeys("Maslovskaya");
         driver.findElement(By.id("address_street_address")).sendKeys("Lidskaya");
-        driver.findElement(By.id("address_secondary_address")).sendKeys("7");
+        driver.findElement(By.id("address_secondary_address")).sendKeys("7/2");
         driver.findElement(By.id("address_city")).sendKeys("Grodno");
         driver.findElement(By.id("address_state")).click();
         driver.findElement(By.cssSelector("option[value='AZ']")).click();
